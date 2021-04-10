@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "_",
+    "_",
+    "_"
+  ],
+  "key": {
+    "_": {
+       "item": "minecraft:cobblestone"
+     }
+  },
+  "result": {
+    "item": "lampa:pedestal",
+    "count": 3
+  }
+}

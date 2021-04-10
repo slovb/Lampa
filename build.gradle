@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.14.4-1.0.0'
+version = '1.14.4-1.0.2'
 group = 'com.slov.lampa' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'lampa'
 
@@ -74,7 +74,7 @@ minecraft {
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'lampa', '--all', '--output', file('src/generated/resources/')
 
             mods {
                 lampa {

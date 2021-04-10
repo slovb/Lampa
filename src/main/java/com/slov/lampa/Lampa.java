@@ -7,6 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.slov.lampa.init.ModBlocks;
+import com.slov.lampa.init.ModItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Lampa.MODID)
@@ -20,5 +21,6 @@ public class Lampa
     	IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
     	
     	ModBlocks.BLOCKS.register(bus);
+    	ModItems.ITEMS.register(bus);
     }
 }
