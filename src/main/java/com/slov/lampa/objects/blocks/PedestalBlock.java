@@ -15,7 +15,7 @@ public class PedestalBlock extends Block {
 	protected static final VoxelShape SHAPE = VoxelShapes.or(Block.makeCuboidShape(5.0D, 0.0D, 5.0D, 11.0D, 16.0D, 11.0D), Block.makeCuboidShape(6.5D, 0.0D, 6.5D, 9.5D, 16.0D, 9.5D));
 	
 	public PedestalBlock() {
-		super(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.0F).sound(SoundType.STONE));
+		super(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.0F).sound(SoundType.STONE).lightValue(15));
 		this.setDefaultState(this.stateContainer.getBaseState());
 	}
 	
