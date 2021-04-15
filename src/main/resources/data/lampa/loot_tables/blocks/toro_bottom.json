@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lampa:toro"
+          "name": "lampa:toro_bottom"
         }
       ],
       "conditions": [

@@ -1,20 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#",
-    "_",
-    "_"
+    "_#_"
   ],
   "key": {
     "#": {
        "item": "minecraft:torch"
-    },
-    "_": {
+     },
+     "_": {
        "item": "minecraft:cobblestone"
      }
   },
   "result": {
-    "item": "lampa:pedestal",
+    "item": "lampa:toro_top",
     "count": 3
   }
 }

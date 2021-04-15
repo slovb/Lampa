@@ -1,4 +1,4 @@
 {
-	"item.lampa.pedestal": "Toro Bottom",
-	"item.lampa.toro": "Toro Top"
+	"item.lampa.toro_bottom": "Toro Bottom",
+	"item.lampa.toro_top": "Toro Top"
 }
